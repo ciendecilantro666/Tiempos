@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D5BDED3F-D453-4F72-8A39-DCC89455FA3C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tiempos</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9CF87671-A120-4220-865E-0BA807543E23</key>
+		<string>https://github.com/ciendecilantro666/Tiempos.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tiempos.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9CF87671-A120-4220-865E-0BA807543E23</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ciendecilantro666/Tiempos.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9CF87671-A120-4220-865E-0BA807543E23</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9CF87671-A120-4220-865E-0BA807543E23</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tiempos</string>
+		</dict>
+	</array>
+</dict>
+</plist>

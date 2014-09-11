@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		848D894B19C159910029B28E /* Empleado.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D894A19C159910029B28E /* Empleado.m */; };
+		848D894E19C15D9B0029B28E /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D894D19C15D9B0029B28E /* MenuViewController.m */; };
 		901D23D219BFA78900A03416 /* horas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 901D23D119BFA78900A03416 /* horas.plist */; };
 		901D23D819BFAA1E00A03416 /* HorasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901D23D719BFAA1E00A03416 /* HorasViewController.m */; };
 		901D24EB19BFE8F400A03416 /* time.png in Resources */ = {isa = PBXBuildFile; fileRef = 901D24EA19BFE8F400A03416 /* time.png */; };
@@ -39,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		848D894919C159910029B28E /* Empleado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Empleado.h; sourceTree = "<group>"; };
+		848D894A19C159910029B28E /* Empleado.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Empleado.m; sourceTree = "<group>"; };
+		848D894C19C15D9B0029B28E /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		848D894D19C15D9B0029B28E /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		901D23D119BFA78900A03416 /* horas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = horas.plist; sourceTree = "<group>"; };
 		901D23D619BFAA1E00A03416 /* HorasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorasViewController.h; sourceTree = "<group>"; };
 		901D23D719BFAA1E00A03416 /* HorasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorasViewController.m; sourceTree = "<group>"; };
@@ -93,6 +99,8 @@
 		90E1B8D219BB77C400247D97 = {
 			isa = PBXGroup;
 			children = (
+				848D894919C159910029B28E /* Empleado.h */,
+				848D894A19C159910029B28E /* Empleado.m */,
 				901D23D619BFAA1E00A03416 /* HorasViewController.h */,
 				901D23D719BFAA1E00A03416 /* HorasViewController.m */,
 				901D23D119BFA78900A03416 /* horas.plist */,
@@ -134,6 +142,8 @@
 				90E1B91319BB788600247D97 /* Logo EyC.png */,
 				90E1B8F319BB77C400247D97 /* ViewController.h */,
 				90E1B8F419BB77C400247D97 /* ViewController.m */,
+				848D894C19C15D9B0029B28E /* MenuViewController.h */,
+				848D894D19C15D9B0029B28E /* MenuViewController.m */,
 				90E1B8F619BB77C400247D97 /* Images.xcassets */,
 				90E1B8E519BB77C400247D97 /* Supporting Files */,
 			);
@@ -270,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848D894B19C159910029B28E /* Empleado.m in Sources */,
+				848D894E19C15D9B0029B28E /* MenuViewController.m in Sources */,
 				901D23D819BFAA1E00A03416 /* HorasViewController.m in Sources */,
 				90E1B8F519BB77C400247D97 /* ViewController.m in Sources */,
 				90E1B8EF19BB77C400247D97 /* AppDelegate.m in Sources */,
