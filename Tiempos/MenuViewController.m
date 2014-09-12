@@ -29,6 +29,7 @@
     // Do any additional setup after loading the view.
     UIAlertView *alerta=[[UIAlertView alloc] initWithTitle:@"Bienvenido!" message:_empl.nombreEmpleado delegate:self cancelButtonTitle:@"Aceptar" otherButtonTitles: nil];
     [alerta show];
+    [self cargarOrdenes];
 
 }
 
@@ -48,6 +49,36 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    HorasViewController *horas = [segue destinationViewController];
+    //HorasViewController *horas = [[nav viewControllers] objectAtIndex:0];
+    horas.empl = _empl;
+}
+
+-(void) cargarOrdenes{
+    NSURL *url = [NSURL URLWithString: [NSString stringWithFormat:@"http://190.7.159.122/ficha/json/ordenes_usuario_json.php?id=%@",_empl.idEmpleado ]];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue]
+                           completionHandler:^(NSURLResponse *response,NSData *data, NSError *connectionError)
+     {
+         NSError * error;
+         if (data.length > 0 && connectionError == nil)
+         {
+             NSDictionary *diccionario = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
+             
+             
+             NSArray *ordenes = [diccionario objectForKey:@"key"];
+             NSArray *labels = [diccionario objectForKey:@"value"];
+
+         }else
+         {
+             UIAlertView *alerta=[[UIAlertView alloc] initWithTitle:@"ERROR!" message:@"Ocurrio un error al descargar las ordenes!" delegate:self cancelButtonTitle:@"Aceptar" otherButtonTitles: nil];
+             [alerta show];
+         }
+     }
+     ];
+}
 
 
 @end

@@ -50,7 +50,7 @@
                 }else{                    
                     _emp = [[Empleado alloc] init];
                     _emp.nombreEmpleado = [diccionario objectForKey:@"nombre"];
-                    _emp.idEmpleado = [diccionario objectForKey:@"id"];
+                    _emp.idEmpleado = [diccionario objectForKey:@"idusuario"];
                     //LLamado al boton del segue
                     [_btnIngresarValidado sendActionsForControlEvents:UIControlEventTouchUpInside];
                 }

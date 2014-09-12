@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Empleado.h"
+#import "HorasViewController.h"
 
 @interface MenuViewController : UIViewController
 

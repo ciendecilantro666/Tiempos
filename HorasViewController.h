@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Empleado.h"
 
 @interface HorasViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>{
     
@@ -18,6 +19,8 @@
 @property (strong, nonatomic) IBOutlet UIPickerView *pickerHoras;
 
 @property NSArray * horas;
+
+@property Empleado *empl;
 
 
 

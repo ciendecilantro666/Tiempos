@@ -12,5 +12,6 @@
 
 @property NSString *idEmpleado;
 @property NSString *nombreEmpleado;
+@property NSArray *ordenes;
 
 @end

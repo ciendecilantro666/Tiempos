@@ -54,8 +54,9 @@
 
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
     
-    UIAlertView * alerta = [[UIAlertView alloc] initWithTitle:@"Seleccion" message:[_horas objectAtIndex:row] delegate:self cancelButtonTitle:@"Aceptar" otherButtonTitles: nil];
+/*    UIAlertView * alerta = [[UIAlertView alloc] initWithTitle:@"Seleccion" message:[_horas objectAtIndex:row] delegate:self cancelButtonTitle:@"Aceptar" otherButtonTitles: nil];
     [alerta show];
+ */
 }
 
 - (void)didReceiveMemoryWarning
