@@ -12,6 +12,12 @@
 		901D23D219BFA78900A03416 /* horas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 901D23D119BFA78900A03416 /* horas.plist */; };
 		901D23D819BFAA1E00A03416 /* HorasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901D23D719BFAA1E00A03416 /* HorasViewController.m */; };
 		901D24EB19BFE8F400A03416 /* time.png in Resources */ = {isa = PBXBuildFile; fileRef = 901D24EA19BFE8F400A03416 /* time.png */; };
+		90AD9DCB19C1F195002AEDB1 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 90AD9DC919C1F195002AEDB1 /* splash.png */; };
+		90AD9DCC19C1F195002AEDB1 /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90AD9DCA19C1F195002AEDB1 /* splash@2x.png */; };
+		90AD9DD019C1F5E5002AEDB1 /* splash@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90AD9DCF19C1F5E5002AEDB1 /* splash@3x.png */; };
+		90AD9DD619C1F8D7002AEDB1 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 90AD9DD319C1F8D7002AEDB1 /* icon.png */; };
+		90AD9DD719C1F8D7002AEDB1 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90AD9DD419C1F8D7002AEDB1 /* icon@2x.png */; };
+		90AD9DD819C1F8D7002AEDB1 /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90AD9DD519C1F8D7002AEDB1 /* icon@3x.png */; };
 		90E1B8DF19BB77C400247D97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E1B8DE19BB77C400247D97 /* Foundation.framework */; };
 		90E1B8E119BB77C400247D97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E1B8E019BB77C400247D97 /* CoreGraphics.framework */; };
 		90E1B8E319BB77C400247D97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E1B8E219BB77C400247D97 /* UIKit.framework */; };
@@ -49,6 +55,12 @@
 		901D23D619BFAA1E00A03416 /* HorasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorasViewController.h; sourceTree = "<group>"; };
 		901D23D719BFAA1E00A03416 /* HorasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorasViewController.m; sourceTree = "<group>"; };
 		901D24EA19BFE8F400A03416 /* time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time.png; sourceTree = "<group>"; };
+		90AD9DC919C1F195002AEDB1 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		90AD9DCA19C1F195002AEDB1 /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
+		90AD9DCF19C1F5E5002AEDB1 /* splash@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@3x.png"; sourceTree = "<group>"; };
+		90AD9DD319C1F8D7002AEDB1 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		90AD9DD419C1F8D7002AEDB1 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		90AD9DD519C1F8D7002AEDB1 /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
 		90E1B8DB19BB77C400247D97 /* Tiempos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tiempos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E1B8DE19BB77C400247D97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		90E1B8E019BB77C400247D97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,9 +108,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90AD9DD919C1FA67002AEDB1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				90AD9DD319C1F8D7002AEDB1 /* icon.png */,
+				90AD9DD419C1F8D7002AEDB1 /* icon@2x.png */,
+				90AD9DD519C1F8D7002AEDB1 /* icon@3x.png */,
+				90AD9DCF19C1F5E5002AEDB1 /* splash@3x.png */,
+				90AD9DC919C1F195002AEDB1 /* splash.png */,
+				90AD9DCA19C1F195002AEDB1 /* splash@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		90E1B8D219BB77C400247D97 = {
 			isa = PBXGroup;
 			children = (
+				90AD9DD919C1FA67002AEDB1 /* images */,
 				848D894919C159910029B28E /* Empleado.h */,
 				848D894A19C159910029B28E /* Empleado.m */,
 				901D23D619BFAA1E00A03416 /* HorasViewController.h */,
@@ -255,12 +281,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90AD9DD019C1F5E5002AEDB1 /* splash@3x.png in Resources */,
+				90AD9DCB19C1F195002AEDB1 /* splash.png in Resources */,
 				90E1B8F719BB77C400247D97 /* Images.xcassets in Resources */,
 				901D23D219BFA78900A03416 /* horas.plist in Resources */,
 				90E1B91719BB7A1900247D97 /* exit.png in Resources */,
+				90AD9DD719C1F8D7002AEDB1 /* icon@2x.png in Resources */,
 				90E1B91419BB788600247D97 /* Logo EyC.png in Resources */,
+				90AD9DD619C1F8D7002AEDB1 /* icon.png in Resources */,
+				90AD9DD819C1F8D7002AEDB1 /* icon@3x.png in Resources */,
 				90E1B8E919BB77C400247D97 /* InfoPlist.strings in Resources */,
 				901D24EB19BFE8F400A03416 /* time.png in Resources */,
+				90AD9DCC19C1F195002AEDB1 /* splash@2x.png in Resources */,
 				90E1B8F219BB77C400247D97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,8 +440,8 @@
 		90E1B90E19BB77C400247D97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tiempos/Tiempos-Prefix.pch";
 				INFOPLIST_FILE = "Tiempos/Tiempos-Info.plist";
@@ -422,8 +454,8 @@
 		90E1B90F19BB77C400247D97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tiempos/Tiempos-Prefix.pch";
 				INFOPLIST_FILE = "Tiempos/Tiempos-Info.plist";

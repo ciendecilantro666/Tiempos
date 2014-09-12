@@ -26,10 +26,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    self.scroller.contentSize = CGSizeMake(320,790);
     [_scroller setScrollEnabled:YES];
-    [_scroller setContentSize: CGSizeMake(320,1035)];
     
+
  
     NSString * ruta = [[NSBundle mainBundle] pathForResource:@"horas" ofType:@"plist"];
     _horas= [[NSArray alloc] initWithContentsOfFile:ruta];
